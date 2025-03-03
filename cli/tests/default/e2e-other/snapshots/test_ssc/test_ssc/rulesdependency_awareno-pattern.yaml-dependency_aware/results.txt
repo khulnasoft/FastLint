@@ -1,0 +1,30 @@
+=== command
+FASTLINT_USER_AGENT_APPEND="pytest" FASTLINT_SETTINGS_FILE="<MASKED>" FASTLINT_VERSION_CACHE_PATH="<MASKED>" FASTLINT_ENABLE_VERSION_CHECK="0" FASTLINT_SEND_METRICS="off" fastlint --strict --config rules/dependency_aware/no-pattern.yaml --json targets/dependency_aware
+=== end of command
+
+=== exit code
+0
+=== end of exit code
+
+=== stdout - plain
+{
+  "errors": [],
+  "paths": {
+    "_comment": "<add --verbose for a list of skipped paths>",
+    "scanned": []
+  },
+  "results": [],
+  "version": "0.42"
+}
+=== end of stdout - plain
+
+=== stderr - plain
+Nothing to scan.
+
+Some files were skipped or only partially analyzed.
+  Scan skipped: 1 files matching .fastlintignore patterns
+  For a full list of skipped files, run fastlint with the --verbose flag.
+
+Ran 1 rule on 0 files: 0 findings.
+
+=== end of stderr - plain

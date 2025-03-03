@@ -1,0 +1,25 @@
+# coupling: if you modify this file, please also update OSS/src/targeting/Fastlintignore.ml
+
+# Common large paths
+node_modules/
+build/
+dist/
+vendor/
+.env/
+.venv/
+.tox/
+*.min.js
+.npm/
+.yarn/
+
+# Common test paths
+test/
+tests/
+testsuite/
+*_test.go
+
+# Fastlint rules folder
+.fastlint
+
+# Fastlint-action log folder
+.fastlint_logs/

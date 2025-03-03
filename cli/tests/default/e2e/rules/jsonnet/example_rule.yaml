@@ -1,0 +1,6 @@
+rules:
+  - id: example_rule
+    pattern: print("...")
+    message: Fastlint found a match
+    languages: [python]
+    severity: WARNING

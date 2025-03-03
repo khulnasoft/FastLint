@@ -1,0 +1,7 @@
+rules:
+- id: python-typing-ofastlint
+  pattern: from typing import $X
+  languages: [ python ]
+  fix: ""
+  message: found one
+  severity: ERROR

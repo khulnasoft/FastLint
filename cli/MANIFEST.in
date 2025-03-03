@@ -1,0 +1,4 @@
+include src/fastlint/fastlint_interfaces/rule_schema_v1.yaml
+include src/fastlint/fastlint_interfaces/lang.json
+include LICENSE
+include src/fastlint/templates/.fastlintignore

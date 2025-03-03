@@ -1,0 +1,4 @@
+fastlint scan: option '--max-target-bytes': Invalid representation for a
+              number of bytes: 1.3R
+Usage: fastlint scan [OPTION]… [TARGETS]…
+Try 'fastlint scan --help' for more information.
